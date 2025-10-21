@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal Enhanced</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <img src="https://i.ibb.co/L1LVTv4/school-logo.png" alt="School Logo" class="logo">
+                <span class="logo-text">University Portal</span>
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="#" class="nav-link active" data-page="dashboard"><i class="fas fa-tachometer-alt fa-fw"></i><span>Dashboard</span></a></li>
+                <li><a href="#" class="nav-link" data-page="offering"><i class="fas fa-th-list fa-fw"></i><span>Section Offering</span></a></li>
+                <li><a href="#" class="nav-link" data-page="registration"><i class="fas fa-edit fa-fw"></i><span>Registration</span></a></li>
+                <li><a href="#" class="nav-link" data-page="schedule"><i class="fas fa-calendar-alt fa-fw"></i><span>Schedule</span></a></li>
+                <li><a href="#" class="nav-link" data-page="profile"><i class="fas fa-user fa-fw"></i><span>Profile</span></a></li>
+                <li><a href="#" class="nav-link" data-page="grades"><i class="fas fa-graduation-cap fa-fw"></i><span>Grades</span></a></li>
+                <li><a href="#" class="nav-link" data-page="account"><i class="fas fa-file-invoice-dollar fa-fw"></i><span>Account</span></a></li>
+                <li><a href="#" class="nav-link" data-page="calendar"><i class="fas fa-calendar-week fa-fw"></i><span>Calendar</span></a></li>
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#"><i class="fas fa-sign-out-alt fa-fw"></i><span>Logout</span></a>
+            </div>
+        </nav>
+
+        <div class="main-wrapper">
+            <header class="header">
+                <div class="header-left">
+                    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu"><i class="fas fa-bars"></i></button>
+                </div>
+                <div class="header-right">
+                    <div class="user-info">
+                        <span class="user-name">POMAR, RANDELL JHON CAPANAS</span>
+                        <span class="user-campus">Antipolo Campus</span>
+                    </div>
+                </div>
+            </header>
+
+            <main class="main-content" id="main-content">
+                <div class="loader-container" id="loader">
+                    <div class="loader"></div>
+                </div>
+                </main>
+        </div>
+    </div>
+    <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
